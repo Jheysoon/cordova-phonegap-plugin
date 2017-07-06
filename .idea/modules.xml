@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/MyNewPlugin.iml" filepath="$PROJECT_DIR$/.idea/MyNewPlugin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/cordova-phonegap-plugin.iml" filepath="$PROJECT_DIR$/.idea/cordova-phonegap-plugin.iml" />
     </modules>
   </component>
 </project>
