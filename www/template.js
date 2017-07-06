@@ -2,7 +2,8 @@
 /* globals window */
 
 var exec = cordova.require('cordova/exec'),
-    utils = cordova.require('cordova/utils');
+    utils = cordova.require('cordova/utils'),
+    pluginName = 'Echo';
 
 var template = {
     echo: function(successCallback, errorCallback, message, forceAsync) {
@@ -12,7 +13,7 @@ var template = {
             action += 'Async';
         }
 
-        exec(successCallback, errorCallback, 'Echo', action, [message]);
+        exec(successCallback, errorCallback, pluginName, action, [message]);
     }
 };
 
