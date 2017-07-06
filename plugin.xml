@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <plugin xmlns="http://cordova.apache.org/ns/plugins/1.0"
-           id="PLUGIN_ID"
+           id="cordova-sample-echo"
       version="0.0.1">
-    <name>PLUGIN_NAME</name>
+    <name>Sample Plugin</name>
 
     <js-module src="www/template.js" name="Template">
         <clobbers target="Template" />
     </js-module>
 
-    
+
     <!-- TODO: Uncomment this if you would like to add Android support -->
     <!-- android -->
-    <!--    
+    <!--
     <platform name="android">
         <config-file target="res/xml/config.xml" parent="/*">
             <feature name="Echo" >
